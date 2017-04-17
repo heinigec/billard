@@ -18,9 +18,9 @@ cmake is used to build the executable. Execute the following steps:
 
 ## Coding guidelines
 
-To format the code clang-format is used. Example of usage:
+To format the code clang-format is used. Usage:
 
-clang-format -style=google -i Ball.cpp
+./format_code.sh
 
 ## Rendering
 
