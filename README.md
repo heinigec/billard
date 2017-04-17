@@ -2,6 +2,11 @@
 
 This project aims to write a numerical simulation of the cue sport billard.
 
+## Requirements
+
+- [Eigen (linear algebra)](http://eigen.tuxfamily.org/)
+- [POV-Ray (rendering)](http://www.povray.org/)
+
 ## Compilation
 
 cmake is used to build the executable. Execute the following steps:
@@ -16,3 +21,10 @@ cmake is used to build the executable. Execute the following steps:
 To format the code clang-format is used. Example of usage:
 
 clang-format -style=google -i Ball.cpp
+
+## Rendering
+
+To render the example scene
+
+1. cd rendering
+2. povray render.pov
