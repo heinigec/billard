@@ -9,4 +9,4 @@ INCLUDE_DIRECTORIES("include")
 find_package(Eigen3 REQUIRED)
 INCLUDE_DIRECTORIES(${EIGEN3_INCLUDE_DIR})
 
-add_executable(billard src/main.cpp src/Ball.cpp)
+add_executable(billard src/main.cpp src/Ball.cpp src/Render.cpp)
